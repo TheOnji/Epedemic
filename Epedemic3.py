@@ -303,10 +303,10 @@ if SaveFig == 1:
         #home = expanduser("~")
         #loc = r"\Documents\Epedemic2"
         output = "\Output " + Today[0:10]
-        filename = r"\Fig" + str(s) + " " + Today[0:10] + r".png"
-        loc = r"C:\Users\Onjii\OneDrive\Dokument\Jobb\ABB\Covid19 stats"
+        filename = r"/Fig" + str(s) + " " + Today[0:10] + r".png"
+        #loc = r"C:\Users\Onjii\OneDrive\Dokument\Jobb\ABB\Covid19 stats"
         #path = home + loc + output
-        path = loc + output
+        path = "Output"
         #path = loc + filename
         savepath = path + filename
         if not os.path.exists(path): os.mkdir(path)
